@@ -15,10 +15,8 @@ export const ChatWrapper = ({
     useChat({
       api: "/api/chat-stream",
       body: { sessionId },
-      initialMessages
+      initialMessages,
     });
-
-    
 
   return (
     <div className="relative min-h-full bg-zinc-900 flex divide-y flex-col divide-zinc-700 justify-between gap-2">
